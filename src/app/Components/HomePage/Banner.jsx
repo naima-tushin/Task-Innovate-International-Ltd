@@ -13,15 +13,15 @@ const Banner = () => {
             </div>
 
             {/* Boxes */}
-            <div className="absolute flex justify-center items-center space-x-10 hover:space-x-20 top-[100%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 group">
+            <div className="absolute flex justify-center items-center space-x-10 hover:space-x-14 top-[100%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 group">
                 {/* Box 1 */}
-                <div className="box bg-[#C02424] h-[300px] w-[300px] flex items-center justify-center transition-transform duration-300 hover:scale-125 group-hover:translate-x-10"></div>
+                <div className="box bg-[#C02424] h-[300px] w-[300px] flex items-center justify-center transition-all duration-500 ease-in-out hover:scale-125 group-hover:translate-x-10"></div>
                 {/* Box 2 */}
-                <div className="box bg-[#146FE8] h-[260px] w-[260px] flex items-center justify-center transition-transform duration-300 hover:scale-125 group-hover:translate-x-10"></div>
+                <div className="box bg-[#146FE8] h-[260px] w-[260px] flex items-center justify-center transition-all duration-500 ease-in-out hover:scale-125 group-hover:translate-x-10"></div>
                 {/* Box 3 */}
-                <div className="box bg-[#E76666] h-[300px] w-[300px] flex items-center justify-center transition-transform duration-300 hover:scale-125 group-hover:translate-x-10"></div>
+                <div className="box bg-[#E76666] h-[300px] w-[300px] flex items-center justify-center transition-all duration-500 ease-in-out hover:scale-125 group-hover:translate-x-10"></div>
                 {/* Box 4 */}
-                <div className="box bg-[#A0FCD9] h-[260px] w-[260px] flex items-center justify-center transition-transform duration-300 hover:scale-125 group-hover:translate-x-10"></div>
+                <div className="box bg-[#A0FCD9] h-[260px] w-[260px] flex items-center justify-center transition-all duration-500 ease-in-out hover:scale-125 group-hover:translate-x-10"></div>
             </div>
         </div>
     );

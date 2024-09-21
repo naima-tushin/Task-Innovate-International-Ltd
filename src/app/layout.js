@@ -28,9 +28,6 @@ export default function RootLayout({ children }) {
         <div className="">
         {children}
         </div>
-        <footer>
-          <h6>fooooot foooot foooooterrr</h6>
-        </footer>
       </body>
     </html>
   );

@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Signup from './Signup';
 import Explore from './Explore';
 import OverviewCollection from './OverviewCollection';
+import Discover from './Discover';
 
 const Homepage = () => {
     return (
@@ -11,6 +12,7 @@ const Homepage = () => {
             <Signup/>
             <Explore/>
             <OverviewCollection/>
+            <Discover/>
         </div>
     );
 };

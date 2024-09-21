@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-const OverviewCollection = () => {
+const overviewcollection = () => {
     const [visibleCount, setVisibleCount] = useState(3);
     const [clickedIndex, setClickedIndex] = useState(0);
     const [largeBoxColor, setLargeBoxColor] = useState('#0FA958');
@@ -147,4 +147,4 @@ const OverviewCollection = () => {
     );
 };
 
-export default OverviewCollection;
+export default overviewcollection;

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Explore = () => {
+const explore = () => {
     return (
         <div className="mt-40">
             <div className="container mx-auto w-[85%]">
@@ -52,4 +52,4 @@ const Explore = () => {
     );
 };
 
-export default Explore;
+export default explore;

@@ -1,20 +1,20 @@
 import React from 'react';
-import Banner from './Banner';
-import Signup from './Signup';
-import Explore from './Explore';
-import OverviewCollection from './OverviewCollection';
-import Discover from './Discover';
+import Banner from './banner';
+import Signup from './signup';
+import Explore from './explore';
+import Overviewcollection from './overviewcollection';
+import Discover from './discover';
 
-const Homepage = () => {
+const homepage = () => {
     return (
         <div>
-            <Banner />
+            <Banner/>
             <Signup/>
             <Explore/>
-            <OverviewCollection/>
+            <Overviewcollection/>
             <Discover/>
         </div>
     );
 };
 
-export default Homepage;
+export default homepage;

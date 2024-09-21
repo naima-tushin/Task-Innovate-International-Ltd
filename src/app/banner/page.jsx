@@ -1,6 +1,6 @@
 import React from 'react';
 
-const banner = () => {
+const page = () => {
     return (
         <div className="relative">
             {/* Banner */}
@@ -27,4 +27,4 @@ const banner = () => {
     );
 };
 
-export default banner;
+export default page;

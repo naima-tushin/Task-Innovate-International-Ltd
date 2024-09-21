@@ -73,7 +73,7 @@ const cardData = [
     },
 ];
 
-const Discover = () => {
+const discover = () => {
     return (
         <div className="p-8 mt-20 w-[85%] mx-auto">
             {/* Heading */}
@@ -137,4 +137,4 @@ const Discover = () => {
     );
 };
 
-export default Discover;
+export default discover;

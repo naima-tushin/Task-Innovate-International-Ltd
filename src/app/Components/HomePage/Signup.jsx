@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Signup = () => {
+const signup = () => {
     return (
         <div className="flex items-center justify-center gap-40 h-screen mt-72">
             {/* Left Section */}
@@ -69,4 +69,4 @@ const Signup = () => {
     );
 };
 
-export default Signup;
+export default signup;
